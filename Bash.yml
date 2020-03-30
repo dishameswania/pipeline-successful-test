@@ -2,7 +2,7 @@ resources:
   - name:       Git
     type:       GitRepo
     configuration:
-      gitProvider:  GithubDisha
+      gitProvider:  GitDisha
       path:         dishameswania/project-example   
 
 pipelines:
