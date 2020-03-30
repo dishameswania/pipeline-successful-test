@@ -3,7 +3,7 @@ resources:
     type:       GitRepo
     configuration:
       gitProvider:  GitDisha
-      path:         dishameswania/project-example   
+      path:         dishameswania/pipeline-successful-test   
 
 pipelines:
   - name: pipe1
