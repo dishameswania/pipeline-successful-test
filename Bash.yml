@@ -3,10 +3,7 @@ resources:
     type:       GitRepo
     configuration:
       gitProvider:  GithubDisha
-      repository:   GithubDisha
-      path:         dishameswania/project-examples
-    buildOn:
-      commit: true     
+      path:         dishameswania/project-example   
 
 pipelines:
   - name: pipe1
