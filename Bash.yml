@@ -18,3 +18,5 @@ pipelines:
             - echo 'ssh -o StrictHostKeyChecking=no $*' > "$step_tmp_dir/ssh"
             - chmod +x "$step_tmp_dir/ssh"
             - retry_command ssh-agent bash -c "ssh-add ~/.ssh/ssh_disha; GIT_SSH="$step_tmp_dir/ssh" git clone git@github.com:dishameswania/pipeline-successful-test.git"
+            - cd pipeline-successful-test
+            - ls
