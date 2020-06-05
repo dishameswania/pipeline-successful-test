@@ -2,7 +2,7 @@ resources:
   - name:       Git
     type:       GitRepo
     configuration:
-      gitProvider:  GitDisha
+      gitProvider:  Git_disha
       path:         dishameswania/pipeline-successful-test   
 
 pipelines:
